@@ -18,3 +18,11 @@ with col1:
 with col2:
     st.header("Dịch vụ")
     st.write("Đây là nội dung dịch vụ.")
+
+img = "https://pixabay.com/vi/images/download/jsachs99-fireworks-10484019_1920.jpg"
+
+st.image(img, caption="Pháo hoa")
+
+# git add .
+# git commit -m "Update homepage"
+# git push origin main
