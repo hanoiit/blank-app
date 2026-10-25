@@ -23,9 +23,9 @@ img = 'https://images.pexels.com/photos/39457179/pexels-photo-39457179.jpeg'
 
 st.image(img, caption="Cưỡi ngữa ngắm hoàng hôn")
 
-audio = 'https://pixabay.com/vi/music/piano-solo-twilight-princess-496948/'
+audio = open('https://pixabay.com/vi/music/piano-solo-twilight-princess-496948/', 'rb')
 
-st.audio(audio, 'audio/wav')
+st.audio(audio, 'audio/mp3')
 
 # git add .
 # git commit -m "Update homepage"
