@@ -19,7 +19,7 @@ with col2:
     st.header("Dịch vụ")
     st.write("Đây là nội dung dịch vụ.")
 
-img = 'https://pixabay.com/vi/images/download/zaimful-pond-10534213_1920.jpg'
+img = 'https://images.pexels.com/photos/39457179/pexels-photo-39457179.jpeg'
 
 st.image(img, caption="Pháo hoa")
 
