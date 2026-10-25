@@ -21,7 +21,7 @@ with col2:
 
 img = 'https://images.pexels.com/photos/39457179/pexels-photo-39457179.jpeg'
 
-st.image(img, caption="Pháo hoa")
+st.image(img, caption="Cưỡi ngữa ngắm hoàng hôn")
 
 # git add .
 # git commit -m "Update homepage"
