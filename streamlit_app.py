@@ -29,6 +29,10 @@ st.audio(audio, 'audio/mp3')
 
 videos = "https://www.pexels.com/vi-vn/download/video/18069094/"
 
+video1 = 'https://www.youtube.com/watch?v=4az1HtZWT40'
+
+st.video(video1, format='video/mp4')
+
 st.video(videos, format='video/mp4')
 # git add .
 # git commit -m "Update homepage"
