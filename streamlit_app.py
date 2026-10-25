@@ -23,7 +23,7 @@ img = 'https://images.pexels.com/photos/39457179/pexels-photo-39457179.jpeg'
 
 st.image(img, caption="Cưỡi ngữa ngắm hoàng hôn")
 
-audio = open('https://pixabay.com/vi/music/piano-solo-twilight-princess-496948/', 'rb')
+audio = 'https://pixabay.com/vi/music/piano-solo-twilight-princess-496948/'
 
 st.audio(audio, 'audio/mp3')
 
