@@ -27,6 +27,9 @@ audio = 'https://pixabay.com/vi/music/piano-solo-twilight-princess-496948/'
 
 st.audio(audio, 'audio/mp3')
 
+videos = "https://www.pexels.com/vi-vn/download/video/18069094/"
+
+st.video(videos, format='video/mp4')
 # git add .
 # git commit -m "Update homepage"
 # git push origin main
