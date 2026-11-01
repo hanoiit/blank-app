@@ -19,6 +19,7 @@ with col1:
 with col2:
     st.header("Dịch vụ")
     st.write("Đây là nội dung dịch vụ.")
+    st.bottom("Sự kiến nhấn nút")
 
 img = 'https://images.pexels.com/photos/39457179/pexels-photo-39457179.jpeg'
 
