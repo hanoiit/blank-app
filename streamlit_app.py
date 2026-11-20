@@ -43,6 +43,14 @@ with st.form(key="My Form"):
     if submitted:
         st.write("Done")
 
+list_options = ['Green', 'Yellow', 'Red', 'Blue', 'Pink']
+
+options = st.multiselect("Select your color: ", list_options)
+
+st.write("Your selections: ")
+
+for i in range(len(options)):
+    st.write(options[i])
 
 # git add .
 # git commit -m "Update homepage"
