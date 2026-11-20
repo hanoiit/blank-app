@@ -36,6 +36,14 @@ video1 = 'https://www.youtube.com/watch?v=4az1HtZWT40'
 st.video(video1, format='video/mp4')
 
 st.video(videos, format='video/mp4')
+
+with st.form(key="My Form"):
+    st.write("Hello World")
+    submitted = st.form_submit_button("Submited")
+    if submitted:
+        st.write("Done")
+
+
 # git add .
 # git commit -m "Update homepage"
 # git push origin main
