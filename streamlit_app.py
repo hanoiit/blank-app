@@ -52,6 +52,11 @@ st.write("Your selections: ")
 for i in range(len(options)):
     st.write(options[i])
 
+selectBoxs = ('Email', 'Điện thoại bàn', 'Điện thoại di động')
+
+selectBox = st.selectbox('Chọn phương thức liên lạc?', selectBoxs)
+
+st.write('Bạn đã chọ: ', selectBox)
 # git add .
 # git commit -m "Update homepage"
 # git push origin main
