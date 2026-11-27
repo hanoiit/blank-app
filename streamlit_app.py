@@ -57,6 +57,26 @@ selectBoxs = ('Email', 'Điện thoại bàn', 'Điện thoại di động')
 selectBox = st.selectbox('Chọn phương thức liên lạc?', selectBoxs)
 
 st.write('Bạn đã chọ: ', selectBox)
+
+
+selectedA = st.checkbox("Selected A")
+
+selectedB = st.checkbox("Selected B")
+
+selectedC = st.checkbox("Selected C")
+
+selectedD = st.checkbox("Selected D")
+
+if selectedA:
+    st.write("Selected A")
+elif selectedB:
+    st.write("Selected B")
+elif selectedC:
+    st.write("Selected C")
+elif selectedD:
+    st.write("Selected D")
+else:
+    st.write("not Selected")
 # git add .
 # git commit -m "Update homepage"
 # git push origin main
