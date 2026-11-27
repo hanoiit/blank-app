@@ -81,6 +81,9 @@ else:
 sliderAge = st.slider("How old are you? ", 0, 130, 25)
 st.write("I am: ", sliderAge, "years old")
 
+text_contents = 'This is some text'
+st.download_button('Download', text_contents)
+
 
 # git add .
 # git commit -m "Update homepage"
