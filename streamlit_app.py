@@ -77,6 +77,11 @@ elif selectedD:
     st.write("Selected D")
 else:
     st.write("not Selected")
+
+sliderAge = st.slider("How old are you? ", 0, 130, 25)
+st.write("I am: ", sliderAge, "years old")
+
+
 # git add .
 # git commit -m "Update homepage"
 # git push origin main
